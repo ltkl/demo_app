@@ -1,1 +1,6 @@
-DemoApp::Application.config.secret_token = 'b214101343220c66f0bd9d77e82d0da3764ec3c7b7b159543cae9da96ee9ebafba055b97ec5150388b96f7ae9bc8677eee290921d6ece3fb8593fe8bb90a43d3'
+# secret = ENV['DEMOAPP_SECRET']
+# if secret.nil? || secret.length < 30
+#   puts "Secret token cannot be loaded"
+# else
+DemoApp::Application.config.secret_token = '15b9789d4d042c4d2cdf7a3bf5096342f2baecc60bbf5bb4789f61c374b6852f23a1fd9bee9aaf6be58149ce35f141dea607673772a1635c41200bcc1c1bd7ba'
+# end
